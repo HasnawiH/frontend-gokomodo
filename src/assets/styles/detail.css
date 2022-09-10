@@ -1,0 +1,35 @@
+.con-catch {
+    display: flex;
+    flex-direction: column;
+    background-color: transparent;
+    position: fixed;
+    bottom: 1rem;
+    left: calc(50vw - 30px);
+}
+
+.btn-catch {
+    display: flex;
+    padding: 0px;
+    border: none;
+    cursor: pointer;
+    background: transparent;
+    animation: bounce 0.5s;
+    animation-direction: alternate;
+    animation-timing-function: cubic-bezier(.5, 0.05, 1, .5);
+    animation-iteration-count: infinite;
+}
+
+.img-catch {
+    width: 40px;
+    height: 40px;
+}
+
+@keyframes bounce {
+    from {
+        transform: translate3d(0, 0, 0);
+    }
+
+    to {
+        transform: translate3d(0, 20px, 0);
+    }
+}

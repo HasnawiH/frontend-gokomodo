@@ -1,11 +1,9 @@
 import { useEffect, useState } from 'react';
 import Button from '../components/Button';
 import Card from '../components/Card';
-import Navbar from '../components/Navbar';
 import axios from 'axios';
 
 const Index = () => {
-
     const [loadMore, setLoadMore] = useState('https://pokeapi.co/api/v2/pokemon?limit=10');
     const [allPokemons, setAllPokemons] = useState([]);
 
@@ -37,7 +35,6 @@ const Index = () => {
 
     return (
         <div className="w-full min-h-screen max-w-md m-auto bg-slate-50">
-            <Navbar />
             <div className='mx-5 py-10'>
                 <div className='font-bold text-2xl'>Pokedex</div>
 

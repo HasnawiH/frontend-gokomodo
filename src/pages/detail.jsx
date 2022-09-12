@@ -41,7 +41,7 @@ const Detail = () => {
             <div className="w-full min-h-screen max-w-md m-auto bg-slate-50">
             {showModal && <Modal close={handleShowModal} />}
                 <Navbar />
-                <div className='mx-5 pt-14'>
+                <div className='mx-5 pt-10'>
                     <div className='font-bold text-xl mb-2'>{pokemon?.name}</div>
                     <div className='flex'>{pokemon?.types.map(type => <div className='px-3 py-1 mr-1 text-xs rounded-full bg-blue-100 my-1 text-center text-blue-300 font-medium ' >{type.type.name}</div>)}</div>
 

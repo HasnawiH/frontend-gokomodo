@@ -38,7 +38,7 @@ const Index = () => {
     return (
         <div className="w-full min-h-screen max-w-md m-auto bg-slate-50">
             <Navbar />
-            <div className='mx-5 py-14'>
+            <div className='mx-5 py-10'>
                 <div className='font-bold text-2xl'>Pokedex</div>
 
                 <div className='grid grid-cols-2 gap-3 py-5'>
